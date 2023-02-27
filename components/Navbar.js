@@ -6,7 +6,6 @@ export default function Navbar() {
     const navs = [
         { title: "About", path: "/about" },
         { title: "Projects", path: "/projects" },
-        { title: "Playground", path: "/playground" },
     ];
     const router = useRouter();
     const [isOpen, setIsOpen] = useState(false);
@@ -35,10 +34,14 @@ export default function Navbar() {
                 <ul
                     className={`${
                         isOpen ? "block" : "hidden"
-                    } top-10 w-[380px] bg-zinc-50 dark:bg-black rounded-lg border dark:border-zinc-800 p-3 relative z-20 `}>
+                    } top-10 w-[220px] sm:w-[370px] bg-zinc-50 dark:bg-black rounded-lg border dark:border-zinc-800 p-3 relative z-20 `}>
                     {navs.map((nav, index) => (
                         <li key={index} className="flex flex-col justify-center p-3">
-                            <Link href={nav.path} className="bg-zinc-100 dark:bg-zinc-900 rounded-lg px-3 py-2">{nav.title}</Link>
+                            <Link
+                                href={nav.path}
+                                className="bg-zinc-100 dark:bg-zinc-900 rounded-lg px-3 py-2">
+                                {nav.title}
+                            </Link>
                         </li>
                     ))}
                 </ul>

@@ -6,7 +6,7 @@ import React from "react";
 
 export default function Home() {
     return (
-        <Layout title="Home">
+        <Layout title="Bagus B. Bagaskara - Software engineer, coffee enthusiast, cat lovers, and indi freelancer.">
             <Content>
                 <Content.Title>
                     <Content.Span>
@@ -17,10 +17,10 @@ export default function Home() {
                     I’m Bagus B. Bagaskara. I live in Depok Indonesia, where I built Basazard.
                     <div className="mt-6 flex gap-6">
                         <a href="https://instagram.com/basazard" className="">
-                            <InstagramLogo/>
+                            <InstagramLogo />
                         </a>
                         <a href="https://github.com/basazard" className="">
-                            <GithubLogo/>
+                            <GithubLogo />
                         </a>
                     </div>
                 </Content.Subtitle>
@@ -29,28 +29,28 @@ export default function Home() {
                 <div className="-my-4 flex justify-center gap-5 overflow-hidden py-4 sm:gap-8">
                     <div className="relative aspect-[9/10] w-44 flex-none overflow-hidden rounded-xl bg-zinc-100 dark:bg-zinc-800 sm:w-72 sm:rounded-2xl rotate-2">
                         <img
-                            src="me.jpg"
+                            src="/me.JPG"
                             alt=""
                             className="absolute inset-0 h-full w-full object-cover"
                         />
                     </div>
                     <div className="relative aspect-[9/10] w-44 flex-none overflow-hidden rounded-xl bg-zinc-100 dark:bg-zinc-800 sm:w-72 sm:rounded-2xl -rotate-2">
                         <img
-                            src="cat.png"
+                            src="/cat.PNG"
                             alt=""
                             className="absolute inset-0 h-full w-full object-cover"
                         />
                     </div>
                     <div className="relative aspect-[9/10] w-44 flex-none overflow-hidden rounded-xl bg-zinc-100 dark:bg-zinc-800 sm:w-72 sm:rounded-2xl rotate-2">
                         <img
-                            src="mom.jpg"
+                            src="/mom.JPG"
                             alt=""
                             className="absolute inset-0 h-full w-full object-cover"
                         />
                     </div>
                     <div className="relative aspect-[9/10] w-44 flex-none overflow-hidden rounded-xl bg-zinc-100 dark:bg-zinc-800 sm:w-72 sm:rounded-2xl -rotate-2">
                         <img
-                            src="profile.jpg"
+                            src="/profile.jpg"
                             alt=""
                             className="absolute inset-0 h-full w-full object-cover"
                         />

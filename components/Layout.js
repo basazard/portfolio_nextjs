@@ -7,6 +7,7 @@ export default function Layout({ children, title }) {
         <div>
             <Head>
                 <title>{title}</title>
+                <link rel="shortcut icon" href="/favicon.ico" />
             </Head>
 
             <div className="flex justify-center min-h-screen inset-0 sm:px-8">
@@ -24,11 +25,6 @@ export default function Layout({ children, title }) {
                                     <Link href="/projects" legacyBehavior>
                                         <a className="font-medium text-sm text-zinc-800 dark:text-zinc-200 hover:text-blue-500 transition duration-200">
                                             Projects
-                                        </a>
-                                    </Link>
-                                    <Link href="/playground" legacyBehavior>
-                                        <a className="font-medium text-sm text-zinc-800 dark:text-zinc-200 hover:text-blue-500 transition duration-200">
-                                            Playground
                                         </a>
                                     </Link>
                                 </div>

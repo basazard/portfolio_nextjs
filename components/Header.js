@@ -1,6 +1,5 @@
 import Link from "next/link";
 import React from "react";
-import Container from "./Container";
 import Navbar from "./Navbar";
 import ToggleDark from "./ToggleDark";
 
@@ -11,9 +10,9 @@ export default function Header() {
                 <div className="flex flex-1">
                     <Link href="/">
                         <img
-                            src="profile.jpg"
+                            src="/profile.jpg"
                             alt=""
-                            className="rounded-full bg-zinc-100 object-cover dark:bg-zinc-800 h-10 w-10"
+                            className="absolute rounded-full bg-zinc-100 object-cover dark:bg-zinc-800 h-10 w-10"
                         />
                     </Link>
                 </div>
